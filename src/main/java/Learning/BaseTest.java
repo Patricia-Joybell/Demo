@@ -16,7 +16,7 @@ public class BaseTest {
 		System.setProperty("webdriver.chrome.driver", "./chromedriver.exe");
 		driver= new ChromeDriver();
 		driver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS);
-		//How to print the list of windows url's and open the url's in the same window , but in different tabs
+		//How to printtt the list of windows url's and open the url's in the same window , but in different tabss
 		driver.get("https://www.demoblaze.com/");
 		driver.manage().window().maximize();
 
